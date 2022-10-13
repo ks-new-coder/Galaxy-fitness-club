@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kamal's Fitness</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: "Audiowide", sans-serif;
+        color: aliceblue;
+        padding: 0px;
+        margin: 0px;
+        background: url('img/pexels-scott-webb-28054.jpg');
+
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        /* border: 2px solid red; */
+
+
+
+    }
+
+    .left img {
+        width: 130px;
+        margin-right: auto;
+        text-align: center;
+        /* margin:auto; */
+        /* filter: invert(100%); */
+
+    }
+
+    .left div {
+        margin-right: auto;
+        line-height: 19px;
+        font-size: 23px;
+        text-align: center;
+        color: rgb(46, 138, 141);
+
+    }
+
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 30px auto;
+        /* border: 02px solid rgb(5, 252, 5); */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 35px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 34px 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(120, 118, 118);
+
+    }
+
+    .btn {
+        font-family: "Audiowide", sans-serif;
+        margin: 0px 9px;
+        color: #ffffff;
+        background-color: rgb(15, 15, 15);
+        padding: 4px 14px;
+        border: 2px solid rgba(101, 127, 130, 0.912);
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(5, 79, 79);
+    }
+
+    .container {
+        border: 1px solid;
+        margin: 106px 80px;
+        padding: 17px;
+        width: 33%;
+        border-radius: 57px;
+
+    }
+
+
+    .form-group input {
+        font-family: "Audiowide", sans-serif;
+        text-align: center;
+        display: block;
+        width: 418px;
+        padding: 14px;
+        border: 2px solid black;
+        margin: 15px auto;
+        border-radius: 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        width: 40%;
+        margin: 25px auto;
+        line-height: 25px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+
+            <img src="img/WhatsApp Image 2022-10-12 at 5.55.49 PM.jpeg" alt="">
+            <div>Galaxy Fitness Club</div>
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us now</button>
+            <button class="btn">Email </button>
+
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of Gujarat now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <!-- <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div> -->
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone no.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
